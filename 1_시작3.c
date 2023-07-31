@@ -55,3 +55,12 @@ int main(void)
     return 0;
 }
 #endif
+
+// * UNIX / Linux
+//  => 모든 것은 파일입니다.
+//   "Virtual File System"
+
+// 디바이스도 파일을 통해 관리합니다.
+// 일반파일 - open / read / write / close
+// 디바이스 - open / read / write / close
+// 소켓    - open / read / write / close
