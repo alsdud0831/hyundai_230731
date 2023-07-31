@@ -1,6 +1,5 @@
 // 1_시작2.c
 // https://github.com/yoondev-classroom/hyundai_230731
-#include <stdio.h>
 
 // 1. Compile 과정
 //  - 전처리기
@@ -44,6 +43,12 @@
 //   미지정 동작(Unspecified Behaviour)
 // => 동작을 수행하는 데 있어서, 선택 경로가 여러개 존재할 수 있는 경우
 //    컴파일러마다 경로가 달라질 수 있습니다.
+
+#include <stdio.h>
+// 표준 입출력 헤더 파일
+// - printf
+// - scanf
+// ...
 
 #include <stdlib.h>
 
